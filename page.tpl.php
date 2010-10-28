@@ -23,9 +23,18 @@
 
 <div id="body">
 	<div class="wrap_inner">
-		<div id="left_menu">
-			<?php print $left; ?>
-		</div>
+		<?php if ($right): ?>
+			<div id="right_menu">
+				<?php print $right; ?>
+			</div>
+		<?php endif; ?>
+
+		<?php if ($left): ?>
+			<div id="left_menu">
+				<?php print $left; ?>
+			</div>
+		<?php endif; ?>
+
 		<div id="content">
 			<?php if ($title): ?><h1 class="title"><?php print $title; ?></h1><?php endif; ?>
 			<?php if ($tabs): ?><div class="tabs"><?php print $tabs; ?></div><?php endif; ?>

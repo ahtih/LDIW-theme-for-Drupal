@@ -43,10 +43,6 @@ a img {
 	border: none;
 }
 
-#left_menu {
-	float: left;
-}
-
 #wrap {
 	border-top: 5px solid #aad0dc;
 }
@@ -135,7 +131,21 @@ h3 {
 	margin: 0 15px 15px;
 }
 
+#right_menu {
+	float: right;
+	background: #f0a32e;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px 15px;
+	font-size: 12px;
+}
+
+#right_menu a {
+	color: white;
+}
+
 #left_menu {
+	float: left;
 	margin: 0 20px 0 0;
 	list-style-type: none;
 	background: #f0a32e;
