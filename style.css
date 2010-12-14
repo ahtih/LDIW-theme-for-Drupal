@@ -30,6 +30,10 @@ body {
 	content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
 }
 
+.smalltext {
+	font-size: 8px;
+}
+
 a {
 	color: #1b75bc;
 	outline: none;
