@@ -14,7 +14,7 @@ body {
 #w2 {
 }
 
-.node-form .number { 
+.node-form .number, .node-form .form-text { 
 	display: inline !important;
 	width: auto !important;
 }
