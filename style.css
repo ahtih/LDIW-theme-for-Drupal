@@ -71,59 +71,29 @@ h3 {
 	padding: 10px 0;
 }
 
-#header .wrap_inner {
-	background: url('images/logo_eng.png') no-repeat left top;
-	background-position: -25px -12px;
+#header {
 	height: 100px;
 }
 
-#logo h1 {
-	margin: 0;
-}
-
-#logo a {
-	text-indent: -9001px;
-	display: block;
-	width: 279px;
-	height: 138px;
-}
-	
-#mainmenu {
-	clear: right;
-	width: 680px;
-}
-
-#mainmenu ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	padding-top: 32px;
-	float: right;
-}
-
-#mainmenu li {
+#logo {
+	margin-left: 30px;
 	float: left;
-	margin-left: 3px;
+}
+
+#mainmenu {
+	margin-top: 50px;
+	float: left;
 }
 
 #mainmenu a {
-	display: block;
-	padding: 7px 14px;
+	padding: 0px 7px;
 	font-size: 16px;
-	color: #231f20;
 	text-decoration: none;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	color: #231f20;
 }
 
 #mainmenu a:hover {
 	text-decoration: underline;
-}
-
-#mainmenu .expanded a {
-	background: #8b5d3b;
-	color: white;
-	font-weight: bold;
 }
 
 #body {
