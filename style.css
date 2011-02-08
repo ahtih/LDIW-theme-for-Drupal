@@ -96,6 +96,10 @@ h3 {
 	text-decoration: underline;
 }
 
+.nice-menu-hide-title {
+	display: none;
+}
+
 #body {
 	background: white;
 	-moz-border-radius: 8px;
