@@ -25,6 +25,8 @@
 		</div>
 	</div>
 
+	<?php print $header; ?>
+
 <div id="body">
 <?php endif; ?>
 
