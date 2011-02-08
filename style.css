@@ -73,6 +73,7 @@ h3 {
 
 #header {
 	height: 100px;
+	clear: both;
 }
 
 #logo {
@@ -106,6 +107,7 @@ h3 {
 	-webkit-border-radius: 8px;
 	padding: 15px;
 	margin: 0 15px 15px;
+	clear: both;
 }
 
 #right_menu {
