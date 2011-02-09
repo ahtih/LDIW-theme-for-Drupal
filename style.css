@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 3px 0px;
 	padding: 0;
 	background:white url('images/body_bg.png') fixed repeat-x left top;
 	font-family: Arial, sans-serif;
@@ -46,7 +46,6 @@ a img {
 }
 
 #wrap {
-	border-top: 5px solid #aad0dc;
 	background: url('images/clouds.png') fixed no-repeat center 56px;
 }
 
@@ -72,7 +71,7 @@ h3 {
 }
 
 #header {
-	height: 100px;
+	height: 25px;
 	clear: both;
 }
 
@@ -82,7 +81,7 @@ h3 {
 }
 
 #mainmenu {
-	margin-top: 50px;
+	margin-top: 4px;
 	float: left;
 }
 

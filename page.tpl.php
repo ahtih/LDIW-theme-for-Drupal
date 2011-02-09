@@ -17,7 +17,7 @@
 <?php if (!isset($_REQUEST['embed'])): ?>
 	<div id="header">
 		<div class="wrap_inner clearfix">
-			<a href="/" id="logo"><img src="<?php print base_path() . path_to_theme(); ?>/images/logo_eng.png" width="227" height="100"></a>
+			<a href="/" id="logo"><img src="<?php print base_path() . path_to_theme(); ?>/images/logo.png" width="31" height="25"></a>
 			<div id="mainmenu" class="right">
 				<div id="primary"><?php print theme('links',$primary_links); ?></div>
 				<div id="secondary"><?php print theme('links',$secondary_links); ?></div>
