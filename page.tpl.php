@@ -19,7 +19,7 @@
 		<div class="wrap_inner clearfix">
 			<a href="/" id="logo"><img src="<?php print base_path() . path_to_theme(); ?>/images/logo.png" width="31" height="25"></a>
 			<div id="mainmenu" class="right">
-				<div id="primary"><?php print theme('links',$primary_links); ?></div>
+				<div id="primary"><?php global $user; print theme('links',array_merge($primary_links,$user->uid ? array(array('title' => t('Logout'),'attributes'=>array('title'=>t('Logout')),'href'=>'logout')) : array(array('title' => t('Login'),'attributes'=>array('title'=>t('Login')),'href'=>'user/login')))); ?></div>
 				<div id="secondary"><?php print theme('links',$secondary_links); ?></div>
 			</div>
 		</div>
